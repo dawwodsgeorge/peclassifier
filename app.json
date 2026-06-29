@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "PEClassifier",
+    "slug": "PEClassifier",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dawwodgeorge.PEClassifier",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.dawwodgeorge.PEClassifier"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "acd7111b-bfbe-4784-88d0-ab6bb05cd2df"
+      }
+    },
+    "owner": "dawwodgeorges-team"
+  }
+}
